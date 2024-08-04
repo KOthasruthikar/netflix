@@ -1,0 +1,255 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    background-color: #000;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/826348c2-cdcb-42a0-bc11-a788478ba5a2/6d20b198-e7ab-4e9f-a1aa-666faa0298f9/IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_small.jpg" );
+    height:85vh;
+    position: relative;
+    background-position: center center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.main .box{
+    height:85vh;
+    width:100%;
+    opacity: 0.69;
+    position: absolute;
+    background-color: #000;
+    top:0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin:auto;
+    justify-content:space-between;
+    height: 62px;
+}
+nav img{
+    color:red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    border:none;
+}
+.hero{
+    height:calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+    position: relative;
+    gap: 23px;
+    padding:0 30px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separator{
+    height:8px;
+    background: rgb(46, 46, 46);
+}
+.btn{
+    background-color: rgba(23,23,23,0.7);
+    color:white;
+    padding:7px 44px;
+    border:1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-st{
+    background-color: red;
+    color:#fff;
+    padding: 0.75rem 1.5rem;  
+    font-size: 20px;
+    border-radius: 4px;
+}
+.btn-red{
+    background-color: red;
+    color:#fff;
+    padding:7px 21px;
+    border-radius: 5px;
+}
+.main input{
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 20px;
+    color:white;
+    border-radius: 4px;
+    background-color: rgba(20,20,20,0.7);
+    border:1px solid rgba(124, 122, 122, 0.515);
+}
+.hero-buttons{
+     display:flex;
+    gap:16px;
+    align-items: center;
+    justify-content: center;
+}
+.main input::placeholder{
+    text-wrap: left;
+}
+.first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color:#fff;
+}
+.secImg img{
+    width:2ovw;
+}
+.secImg{
+    position: relative;
+}
+.secImg video{
+    position:absolute;
+    top: 90px;
+    right: 76px;
+    z-index: -10;
+}
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.er1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.er2{
+    font-size: 24px;
+}
+.faqbox{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(44, 43, 43);
+    padding:25px;
+    max-width: 70vw;
+    cursor: pointer;
+    margin: 9px auto;
+    font-size: 24px;
+    transition: all 0.5s ease-out;
+}
+.faq{
+    background-color: black;
+    color:white;
+    padding: 34px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+.faqbox:hover{
+    background-color: rgb(65, 62, 62);
+}
+.footer{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   color:#fff;
+   max-width: 70vw;
+   margin: auto;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap:23px;
+}
+footer{
+    color:#fff;
+    padding:14px;
+    max-width: 70vw;
+    margin:auto;
+}
+.footer a{
+  font-size: 14px;
+    color: #fff;
+}
+footer .question{
+    padding:34px 0;
+}
+.secImg1 img{
+    width:2ovw;
+    overflow: hidden;
+
+}
+.secImg1{
+    position: relative;
+}
+.secImg1 video{
+    position: absolute;
+    top: 20px;
+    right: 111px;
+    z-index: -10;
+    width: 426px;
+    height:300px;
+}
+.hero-buttons2{
+    display:flex;
+    gap:16px;
+    align-items: center;
+    justify-content: center;
+}
+.int{
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    font-size: 20px;
+    color:white;
+    border-radius: 4px;
+    background-color: rgba(20,20,20,0.7);
+    border:1px solid rgba(124, 122, 122, 0.515);   
+}
+.text1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 34px 12px 19px;
+}
+.btn2{
+    background-color: rgba(23,23,23,0.7);
+    color:white;
+    padding:7px 42px;
+    border:1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn3{
+    padding:34px;
+}
+.text2{
+    font-size: 16px;
+    position:relative;
+    color:#fff;
+   padding: -12px;
+}
+
+
+
+
